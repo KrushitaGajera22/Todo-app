@@ -3,7 +3,7 @@ var mongoose = require('mongoose');
 
 mongoose.set('strictQuery', true);
 // Connect to the database
-mongoose.connect('mongodb+srv://testtodo:Testtodo1234@todo.vcuruvj.mongodb.net/?retryWrites=true&w=majority');
+mongoose.connect('mongodb+srv://testtodo:khushi@todo.vcuruvj.mongodb.net/?retryWrites=true&w=majority');
 
 //create schema 
 var todoSchema = new mongoose.Schema({
